@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body {
+    color: #626262;
+}
+
+a {
+    text-decoration: none;
+    color: #626262;
+    display: block;
+}
+
+a:hover {
+    font-weight: 600;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li a {
+    display: block;
+}
+
+.container {
+    max-width: 88%;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header .flex,
+form .flex,
+footer .flex {
+    align-items: center;
+}
+
+ul li a,
+article p,
+input {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/***************************************************
+Header
+****************************************************/
+
+.logo {
+    max-width: 20%;
+    flex-basis: 20%;
+}
+
+.logo img {
+    width: 57%;
+}
+
+nav {
+    max-width: 80%;
+    flex-basis: 80%;
+}
+
+nav ul,
+.social-icons ul {
+    justify-content: flex-end;
+}
+
+nav ul li a {
+    padding: 76px 0px 76px 120px;
+    text-transform: uppercase;
+}
+
+/***************************************************
+Banner Section
+****************************************************/
+
+.banner-section img {
+    width: 100%;
+    padding-bottom: 66px;
+}
+
+/***************************************************
+Blog Section
+****************************************************/
+
+.blog-section {
+    padding-bottom: 93px;
+}
+
+.blog-section .container {
+    width: 80%;
+}
+
+article {
+    padding: 0px 30px;
+}
+
+article span {
+    display: block;
+    padding-bottom: 23px;
+    padding-top: 33px;
+}
+
+article span,
+.comment {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #b4ad9e;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+p {
+    line-height: 1.75;
+    padding-top: 41px;
+    padding-bottom: 32px;
+}
+
+.comment {
+    padding-bottom: 32px;
+    padding-top: 22px;
+}
+
+.blog-post {
+    max-width: 50%;
+    flex-basis: 50%;
+}
+
+article img {
+    width: 98%;
+    width: 421px;
+    padding-top: 103px;
+}
+
+/***************************************************
+Newsletter Section
+****************************************************/
+
+.newsletter-section {
+    background: #f0f0f0;
+    padding: 73px;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #333333;
+    text-align: center;
+}
+
+form {
+    margin: 80px auto 0px auto;
+    width: 38%;
+    border-bottom: 1px solid #000000;
+}
+
+input {
+    background: #f0f0f0;
+    border: none;
+    width: 84%;
+    line-height: 1.75;
+    padding-bottom: 8px;
+}
+
+.newsletter-section a {
+    width: 15%;
+    text-align: right;
+}
+
+.newsletter-section a img {
+    width: 30px;
+}
+
+.learn-more {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 20px;
+    border: 1px solid #626262;
+    margin: 128px auto 0px auto;
+    padding: 14px 38px 17px 38px;
+}
+
+.learn-more:hover {
+    border-color: #b4ad9e;
+}
+
+/***************************************************
+Footer
+****************************************************/
+
+footer {
+    background: #f0f0f0;
+    padding: 40px 0px 48px 0px;
+}
+
+.footer-menu {
+    max-width: 70%;
+    flex-basis: 70%;
+    padding-left: 78px;
+}
+
+.footer-menu ul li a {
+    color: #000000;
+    padding-right: 18px;
+}
+
+.social-icons {
+    max-width: 30%;
+    flex-basis: 30%;
+    /* justify-content: flex-end; */
+}
+
+.social-icons ul {
+    justify-content: flex-end;
+}
+
+.social-icons span {
+    color: #000000;
+    padding-right: 4px;
+}
+
+.social-icons ul li a {
+    padding-left: 18px;
+}
